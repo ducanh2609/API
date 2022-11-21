@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .app {
+        max-width: 330px;
+        max-height: max-content;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+
+    .app input {
+        height: 30px;
+        width: 300px;
+        outline: none;
+    }
+
+    .search {
+        display: flex;
+    }
+
+    .search-icon {
+        height: 30px;
+        width: 30px;
+        line-height: 35px;
+        text-align: center;
+        background-color: blue;
+        color: white;
+    }
+
+    .search-icon:hover {
+        cursor: pointer;
+    }
+
+    /* 
+    .infor {
+        border: 1px solid red;
+    } */
+
+    .infor:hover {
+        cursor: pointer;
+    }
+
+    .infor-each {
+        display: flex;
+        height: max-content;
+        width: 100%;
+    }
+
+    /* .infor-each div {
+        border: 1px solid blue;
+
+    } */
+
+    .box {
+        /* border: 1px solid blue; */
+        /* position: relative; */
+        width: 20%;
+        height: 70px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text {
+        box-sizing: border-box;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .text div {
+        min-height: 50%;
+        max-height: max-content;
+        text-align: left;
+        padding-bottom: 5px;
+    }
+
+    .pageprops {
+        font-size: 10px;
+    }
+</style>
+
+<body>
+    <div class="app">
+        <div class="search">
+            <input id="Input" type="search" name="" id="">
+            <span class="search-icon">
+                <ion-icon name="search-outline"></ion-icon>
+            </span>
+        </div>
+        <div class="infor" id="infor">
+        </div>
+    </div>
+
+    <script src="/exercise01.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
